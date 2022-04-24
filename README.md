@@ -1,11 +1,8 @@
-# sparkMovieLens
-
 CONTENTS OF THIS FILE
 ---------------------
 
  * Introduction
  * Requirements
- * Installation
 
 INTRODUCTION
 ------------
@@ -16,13 +13,3 @@ REQUIREMENTS
 ------------
 
 This project requires setting up Apache Spark for the distributed computing and using PySpark, the python API, to manipulate the dataset. I use Jupyter Notebook to access PySpark and import relevant libraries such as ipywidgets for widgets, plotly and seaborn for visualizations, pandas for data manipulation, and SKLearn and Fuzzy Wuzzy for the recommendation engine. These can be installed using pip. 
-
-INSTALLATION
-------------
-
-1. Download & Install Anaconda Distribution.
-2. Install Java JDK 8.
-3. Install PySpark.
-4. Install FindSpark.
-5. Validate PySpark Installation from pyspark shell.
-6. Open PySpark in Jupyter notebook.
