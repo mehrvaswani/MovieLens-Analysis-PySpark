@@ -15,7 +15,7 @@ REQUIREMENTS
 This project requires setting up Apache Spark for the distributed computing and using PySpark, the python API, to manipulate the dataset. I use Jupyter Notebook to access PySpark and import relevant libraries such as ipywidgets for widgets, plotly and seaborn for visualizations, pandas for data manipulation, and SKLearn and Fuzzy Wuzzy for the recommendation engine. These can be installed using pip. 
 
 
-Features
+FEATURES
 ------------
 I have used SparkSession and its supported DataFrames to read and store the .csv files rather than RDDs out of personal preference because it allows for easier processing and my experience with Python and its supported Pandas library for data manipulation and analysis. This feature is indicative of Spark’s accessibility, whereby non-specialised data engineers are able to use a domain specific language API to manipulate our distributed data. 
 	I structure my project by first summarising the dataset and exploring the information through visualizations using the Plotly open-source library. This provides users with an idea of what information we have in an intuitive and digestible manner. My visualizations summarise the dataset by movie genre, movie release year, movies by unique watches, and by rating. They also enable users to interact with the visualization through mouse hovers, zooming in and out, and screenshot capabilities. 
